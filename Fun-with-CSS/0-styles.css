@@ -1,0 +1,44 @@
+:root {
+  --color-light-grey: #D3D3D3;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  
+}
+
+li {
+    padding: 30px;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 360px;
+    width: 220px;
+    font-weight: bold;
+    background-color: var(--color-light-grey);
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+li span {
+    height: 360px;
+    width: 220px;
+    background-image: url("images/d416199ca6ecdbd0f8a3.png");
+    background-size: 300%;
+	background-repeat: no-repeat;
+}
+
+
+.i-css {
+    background-position: center 22px;
+}
+.i-html {
+    background-position: left 22px;
+}
+.i-js {
+    background-position: right 22px;
+}
